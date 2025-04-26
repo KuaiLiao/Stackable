@@ -130,4 +130,25 @@ public extension ScrollingStackView {
         stackView.stackable.add(stackables)
     }
     
+    /**
+     Adds `Stackable` items to the stackView.
+
+     - Parameters:
+        - stackablesBlock: An block of `Stackable` elements. Does not need to be homogenous.
+     
+     ```
+     let stackView = ScrollingStackView()
+     let cells: [UIView] = ...
+     stackView.add {
+        "Hello World!",
+        20,
+        UIStackView.stackable.hairline,
+        cells,
+        UIStackView.stackable.flexibleSpace,
+     }
+     ```
+     */
+    func add(@RPStackableBuilder _ stackablesBlock: () -> [Stackable]) {
+        stackView.stackable.add(stackablesBlock())
+    }
 }

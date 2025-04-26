@@ -144,6 +144,27 @@ extension StackableExtension where ExtendedType: UIStackView {
         stackables.forEach { $0.configure(stackView: base) }
     }
 
+    /**
+     Adds `Stackable` items to the stackView.
+
+     - Parameters:
+        - stackables: An array of `Stackable` elements. Does not need to be homogenous.
+     
+     ```
+     let stackView = UIStackView()
+     let cells: [UIView] = ...
+     stackView.stackable.add {
+        "Hello World!",
+        20,
+        UIStackView.stackable.hairline,
+        cells,
+        UIStackView.stackable.flexibleSpace,
+     }
+     ```
+     */
+    func add(@RPStackableBuilder _ stackablesBlock: () -> [any Stackable]) {
+        stackablesBlock().forEach { $0.configure(stackView: base) }
+    }
 }
 
 // MARK: - Array Conformance

@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Rightpoint/Stackable.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
-  s.swift_versions = ['5.0']
+  s.swift_versions = ['5']
   
-  s.source_files = 'Stackable/**/*'
+  s.source_files = 'Stackable/**/*.swift'
 
   # s.public_header_files = 'Pod/**/*.h'
   s.frameworks = 'UIKit'
