@@ -118,7 +118,7 @@ extension StackableExtension where ExtendedType: UIStackView {
      stackView.stackable.add(UIStackView.stackable.flexibleSpace)
      ```
      */
-    public func add(_ stackable: Stackable) {
+    public func add(_ stackable: any Stackable) {
         add([stackable])
     }
 
@@ -140,7 +140,7 @@ extension StackableExtension where ExtendedType: UIStackView {
      ])
      ```
      */
-    public func add(_ stackables: [Stackable]) {
+    public func add(_ stackables: [any Stackable]) {
         stackables.forEach { $0.configure(stackView: base) }
     }
 
@@ -162,8 +162,8 @@ extension StackableExtension where ExtendedType: UIStackView {
      }
      ```
      */
-    func add(@RPStackableBuilder _ stackablesBlock: () -> [any Stackable]) {
-        stackablesBlock().forEach { $0.configure(stackView: base) }
+    public func add(@RPStackableBuilder _ stackables: () -> [any Stackable]) {
+        add(stackables())
     }
 }
 

@@ -104,7 +104,7 @@ public extension ScrollingStackView {
      stackView.add(UIStackView.stackable.flexibleSpace)
      ```
      */
-    func add(_ stackable: Stackable) {
+    func add(_ stackable: any Stackable) {
         stackView.stackable.add(stackable)
     }
     
@@ -126,7 +126,7 @@ public extension ScrollingStackView {
      ])
      ```
      */
-    func add(_ stackables: [Stackable]) {
+    func add(_ stackables: [any Stackable]) {
         stackView.stackable.add(stackables)
     }
     
@@ -148,7 +148,7 @@ public extension ScrollingStackView {
      }
      ```
      */
-    func add(@RPStackableBuilder _ stackablesBlock: () -> [Stackable]) {
+    func add(@RPStackableBuilder _ stackablesBlock: () -> [any Stackable]) {
         stackView.stackable.add(stackablesBlock())
     }
 }
