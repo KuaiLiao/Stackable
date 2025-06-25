@@ -61,45 +61,45 @@ class LogoView: UIView {
         let firstRow = UIStackView()
         firstRow.heightAnchor.constraint(equalToConstant: 100).isActive = true
         firstRow.axis = .horizontal
-        firstRow.stackable.add([
-            sTextImageView,
-            10,
+        firstRow.stackable.add {
+            sTextImageView
+            10
             addImageView
                 .aligned(.top)
-                .inset(by: .init(top: 15, left: 10, bottom: 10, right: 10)),
-            10,
+                .inset(by: .init(top: 15, left: 10, bottom: 10, right: 10))
+            10
             locationImageView
-                .aligned(.centerY),
-            20,
+                .aligned(.centerY)
+            20
             progressRingsImageView
-                .aligned(.centerY),
-            15,
+                .aligned(.centerY)
+            15
             backImageView
                 .inset(by: .init(top: 0, left: 0, bottom: 10, right: 0))
-                .aligned(.centerY),
-        ])
+                .aligned(.centerY)
+        }
         
         let secondRow = UIStackView()
         secondRow.heightAnchor.constraint(equalToConstant: 100).isActive = true
         secondRow.axis = .horizontal
-        secondRow.stackable.add([
-            UIStackView.stackable.flexibleSpace,
-            appStoreImageView,
-            15,
-            bluetoothImageView,
-            20,
+        secondRow.stackable.add {
+            UIStackView.stackable.flexibleSpace
+            appStoreImageView
+            15
+            bluetoothImageView
+            20
             numberOneImageView
-                .inset(by: .init(top: 10, left: 0, bottom: 10, right: 0)),
-            20,
+                .inset(by: .init(top: 10, left: 0, bottom: 10, right: 0))
+            20
             listIconImageView
-                .aligned(.centerY),
-        ])
+                .aligned(.centerY)
+        }
         
-        stack.stackable.add([
-            firstRow,
-            15,
-            secondRow,
-        ])
+        stack.stackable.add {
+            firstRow
+            15
+            secondRow
+        }
         
         stack.stackable.debug.showMargins()
         stack.stackable.debug.showOutlines()

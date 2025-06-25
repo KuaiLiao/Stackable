@@ -46,19 +46,19 @@ class ExampleMenuViewController: UIViewController {
         
         contentView.backgroundColor = .groupTableViewBackground
                 
-        contentView.add([
-            logo,
-            30,
-            "Example Views:",
-            10,
+        contentView.add {
+            logo
+            30
+            "Example Views:"
+            10
             cells
                 .outset(to: view)
-                .margins(alignedWith: contentView),
+                .margins(alignedWith: contentView)
             UIStackView.stackable.hairlines(around: cells)
-                .outset(to: view),
-            20...,
-            "Copyright Rightpoint",
-        ])
+                .outset(to: view)
+            20...
+            "Copyright Rightpoint"
+        }
     }
         
 }
