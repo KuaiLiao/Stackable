@@ -20,8 +20,8 @@ protocol Attachable {
 
 }
 
-private var strongKey = "com.rightpoint.attachable.strong"
-private var weakKey = "com.rightpoint.attachable.weak"
+private var strongKey: Void?
+private var weakKey: Void?
 
 extension Attachable where Self: NSObject {
 

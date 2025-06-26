@@ -408,9 +408,9 @@ public typealias StackableHairlineProvider = (UIStackView) -> UIView
 
 public extension UIStackView {
     fileprivate struct AssociatedKeys {
-        static var hairlineColor = "hairlineColor"
-        static var hairlineThickness = "hairlineThickness"
-        static var hairlineProvider = "hairlineProvider"
+        static var hairlineColor: Void?
+        static var hairlineThickness: Void?
+        static var hairlineProvider: Void?
     }
     
     fileprivate struct Default {
