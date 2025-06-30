@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RPStackable'
   s.module_name      = "Stackable"
-  s.version          = '0.1.7'
+  s.version          = '0.1.7.1'
   s.summary          = 'Stackable is a delightful and declarative set of utilities for UIStackView.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jclark@rightpoint.com' => 'jclark@rightpoint.com' }
-  s.source           = { :git => 'https://github.com/Rightpoint/Stackable.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KuaiLiao/Stackable.git', :tag => s.version.to_s }
 
   s.prefix_header_file = false
   s.ios.deployment_target = '12.0'
