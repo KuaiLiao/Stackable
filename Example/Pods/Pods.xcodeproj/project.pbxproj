@@ -8,99 +8,100 @@
 
 /* Begin PBXBuildFile section */
 		0177A5BCB555BF368667DA413371B9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		063D18A372E0585D8D17928C5CBEC006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		0C19F104E9FC9E97A1B0D67400B15B5B /* ScrollingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669C7573476FA79AF89874370BD2952 /* ScrollingStackView.swift */; };
+		0C791AB890B21E686CE9176DB193F404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
 		264892C8D503AF900547249400DE78BA /* Pods-Stackable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5987507987EA6614EA3CB1EC30DE3E4 /* Pods-Stackable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BB9B61D6B7709D59EFA5AC34AB31091 /* RPStackable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B499F166AA3F99A442E2F8CA81AC7D /* RPStackable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E894905EA20D585FE64712A53308CCA /* UIView+BindVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3E4268BFED40951BB0922127A64EF /* UIView+BindVisible.swift */; };
-		362BA8391DA035F0CF1C3C92D8686E2D /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2453F91E19317539D65159E7C6B7632 /* AlignmentView.swift */; };
-		45038897DEDAAA02B30F525773F4D0E3 /* Attachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452EDE2B76B5A930AB4AE950A66ED43 /* Attachable.swift */; };
+		3E094C1DF4B92053F40B7D31B46ED85E /* Stackable+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28263E9580EC540172FABE658070515 /* Stackable+Alignment.swift */; };
 		49954E344F778D5DC9C42F1764116EBF /* Pods-Stackable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2D7EC2F9B6BD3F99A4080716466A68 /* Pods-Stackable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		506EF651FD3DDDB4EE37EE933916B41D /* UIStackView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C2BC6A743225B827E6795A56A281A /* UIStackView+Utilities.swift */; };
-		61496DD505F0E22058893AB6C56FD287 /* Stackable+A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FBD7FCCD9914DDDAE1E8B8D8BD324 /* Stackable+A11y.swift */; };
-		64C01E4DB9C55427946CB66DB08463EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
-		71FF1EBF9E30E1D71CB2E2103763F7F8 /* Stackable+Hairlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F25A0D3F9B34EDBCF91889F8B9A27 /* Stackable+Hairlines.swift */; };
-		76BECA28D790A08659309BF2A89557B3 /* ScrollingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9FE13B26667B5B030D377217FC033 /* ScrollingStackView.swift */; };
-		89A98D21E9EFC83D1CE1090F9DAF39D0 /* Stackable+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB0CE49E4486831C95CA460946EF0E /* Stackable+Views.swift */; };
-		8BB81D5D985A5DA61ADDAEE1187499D9 /* Stackable+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D234CAF4B45604837F249D888ECD624 /* Stackable+Alignment.swift */; };
+		50313827EBF313DB3E5D9674D43134FB /* Stackable+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427C7973ACF992D4110965D56251A37 /* Stackable+Views.swift */; };
+		6CB00AC067F89CCCAB6D6FD88469B0BF /* UIStackView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B36BDD300C2B94F3A96FF98EBA502 /* UIStackView+Utilities.swift */; };
+		7B8607EE111664D34B05DB89F7555000 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EB2B71D51670451762B371BBAA038D /* Utilities.swift */; };
+		879980185819BC1D0B24E230DB3446C5 /* Stackable+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180DAB71C2D5B3A74FF3C3AC5EE2402 /* Stackable+Extended.swift */; };
+		8B809E5EA58DFDECDCED920E1D1DE547 /* UIStackView+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3DA74BC1159BC6D4BB96C4B07EE52 /* UIStackView+Modifier.swift */; };
+		8C80AE47A5DC62A6F06A1FDB248539B7 /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36CCEA39541DC1A7B512DB3A1620C2 /* AlignmentView.swift */; };
 		A1B5EE69C55E930E903A09CB358B88FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		A5977458249BEFB59A203CE8FA8371C1 /* Stackable+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5D4573E91E21E83F6A703E0F9233D /* Stackable+Extended.swift */; };
 		A5FF07899668293CCEAAE270944091E0 /* Pods-Stackable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF80B7D2AB051381745631F452F2F6 /* Pods-Stackable_Example-dummy.m */; };
-		BCE85E50625E45162193BB82F6BA44DF /* Stackable+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC208F15E647C007DDFD5961D898A169 /* Stackable+Spacing.swift */; };
-		BE69E269D3AAE77F57F816B662C3F1A6 /* RPStackable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB590CDE48107A2ED80E68C954B59A /* RPStackable-dummy.m */; };
-		BF9727684C6FC12D944D41CBD277E947 /* Stackable+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF16C5C1B1F8A0C3838C25DF2883E2 /* Stackable+Debug.swift */; };
-		C610247004C19BE41EAAA279E200D765 /* Stackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474526EEFBDD6F0575B9DBFD20DF7F1 /* Stackable.swift */; };
-		D17A483AF307A98FD1D9279D1E1606A2 /* RPStackableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271C0C1098C4BA98E3303234D71A547 /* RPStackableBuilder.swift */; };
+		B916538B16A61C2E5DE11BAFFA86351E /* RPStackable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC52AE4F2C51D73E828246192422EDB /* RPStackable-dummy.m */; };
+		BC9CAADB4839EFEDE1A36170936D6F21 /* Stackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA18EE5498FC1B94628EA0A9AEB2E1 /* Stackable.swift */; };
+		C4C2E17A01308EF2BCE7F2C2A5964A3A /* Stackable+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847C6B3F4822D81FB34297612773C7A /* Stackable+Debug.swift */; };
+		CA2F53D42DAD0C82029750D4C258093B /* UIView+BindVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F92BCE394913BC7E57CFDD551D01C /* UIView+BindVisible.swift */; };
+		CABC7ACC57DCE5D13AD20472A4E9D37B /* Stackable+A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DBCAA19CBD409F5A1919E6DD6D7EF1 /* Stackable+A11y.swift */; };
+		D8A2CC9449EC3F839F747BBEFAC9FC39 /* Stackable+Hairlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCC91B2CE5CD305B22367362C01138 /* Stackable+Hairlines.swift */; };
+		DA64B63FA91CA6B36BDE2FDC76381683 /* Attachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AF492E3FE0233D2395FC9C4D2EE432 /* Attachable.swift */; };
+		DD1B2C7C7BC25A232AF9C1A674D4B46F /* RPStackableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D324BC382ADF242921CA741EC60CE0 /* RPStackableBuilder.swift */; };
 		E83EC9A913E66E8F3534457372736A19 /* Pods-Stackable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0355CC78CD9CA02F34BC42EA2BF0C326 /* Pods-Stackable_Tests-dummy.m */; };
-		FDA1AEC2E24DD8ADB87A205F0CB1DED0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A3ECC3A8E4AE0DCF113DE18C6A312 /* Utilities.swift */; };
+		EFB4C3A68606931E55BF2D9F48A3AB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		F0842567D24450DA363447BAA43E81BD /* RPStackable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D78BC35D0915E1C1A37E7D46491B453 /* RPStackable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE256FDB0CDDAE1CEAEEAAC4AF04DDBD /* Stackable+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2228FA5EE0A2B4B63A4F30A4810CF /* Stackable+Spacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		67B46D6207189F97AB2AC9819EB63CF9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 09EC16142965B06AAD576CB33FBD85B5;
-			remoteInfo = "Pods-Stackable_Example";
-		};
-		B0C458722E9CD29ACE37BBECFD7C3954 /* PBXContainerItemProxy */ = {
+		2B7246EF0FD8213252C26302725A4C6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C6D53ACEEF8F029316B6BE4D3AD071C6;
 			remoteInfo = RPStackable;
 		};
+		383EC3B07101E8E3232F0CFEAB6E9D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EC16142965B06AAD576CB33FBD85B5;
+			remoteInfo = "Pods-Stackable_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005F25A0D3F9B34EDBCF91889F8B9A27 /* Stackable+Hairlines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Hairlines.swift"; path = "Stackable/Stackable+Hairlines.swift"; sourceTree = "<group>"; };
-		0271C0C1098C4BA98E3303234D71A547 /* RPStackableBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPStackableBuilder.swift; path = Stackable/RPStackableBuilder.swift; sourceTree = "<group>"; };
 		0355CC78CD9CA02F34BC42EA2BF0C326 /* Pods-Stackable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stackable_Tests-dummy.m"; sourceTree = "<group>"; };
-		08F9FE13B26667B5B030D377217FC033 /* ScrollingStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingStackView.swift; path = Stackable/ScrollingStackView.swift; sourceTree = "<group>"; };
+		05DCC91B2CE5CD305B22367362C01138 /* Stackable+Hairlines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Hairlines.swift"; path = "Stackable/Stackable+Hairlines.swift"; sourceTree = "<group>"; };
 		1755C2F0223F098405FC9D1EC6C3A8EB /* Pods-Stackable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stackable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1EB5D4573E91E21E83F6A703E0F9233D /* Stackable+Extended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Extended.swift"; path = "Stackable/Stackable+Extended.swift"; sourceTree = "<group>"; };
-		202A53EAE4FC4326817070C6A5A738AD /* RPStackable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RPStackable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A8B36BDD300C2B94F3A96FF98EBA502 /* UIStackView+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Utilities.swift"; path = "Stackable/UIStackView+Utilities.swift"; sourceTree = "<group>"; };
 		284E4D160E88EE3C5833E9310E86269E /* Pods-Stackable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stackable_Tests-Info.plist"; sourceTree = "<group>"; };
 		2C1B43F3423D55BD315E5A7229EEA177 /* Pods-Stackable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stackable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3452EDE2B76B5A930AB4AE950A66ED43 /* Attachable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Attachable.swift; sourceTree = "<group>"; };
-		3D234CAF4B45604837F249D888ECD624 /* Stackable+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Alignment.swift"; path = "Stackable/Stackable+Alignment.swift"; sourceTree = "<group>"; };
+		3AE21A427B433A253E05F16428C70129 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		43634F0920CDCA2D2A9AA52F6C4BFB79 /* Pods-Stackable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stackable_Example.modulemap"; sourceTree = "<group>"; };
 		47B2BA004B897D31288ED858F7E23271 /* RPStackable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPStackable; path = Stackable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C3A11A0927B3D581E47C6241DA047D3 /* RPStackable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPStackable-prefix.pch"; sourceTree = "<group>"; };
-		4F1A3ECC3A8E4AE0DCF113DE18C6A312 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		519C41FBD314D27A968A5F4626A66249 /* RPStackable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPStackable.debug.xcconfig; sourceTree = "<group>"; };
-		5335083004DAD1A9A0F1E620392B3C29 /* RPStackable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPStackable.modulemap; sourceTree = "<group>"; };
+		51DBCAA19CBD409F5A1919E6DD6D7EF1 /* Stackable+A11y.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+A11y.swift"; path = "Stackable/Stackable+A11y.swift"; sourceTree = "<group>"; };
+		523F92BCE394913BC7E57CFDD551D01C /* UIView+BindVisible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+BindVisible.swift"; sourceTree = "<group>"; };
 		55D81BE3605C31DA730FF5B8A6ED2283 /* Pods-Stackable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stackable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5CBB0CE49E4486831C95CA460946EF0E /* Stackable+Views.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Views.swift"; path = "Stackable/Stackable+Views.swift"; sourceTree = "<group>"; };
+		5A36CCEA39541DC1A7B512DB3A1620C2 /* AlignmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
+		5D78BC35D0915E1C1A37E7D46491B453 /* RPStackable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPStackable-umbrella.h"; sourceTree = "<group>"; };
 		6593DCF8AD94B4248A1DDF9C0DA30C51 /* Pods-Stackable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stackable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E0C2BC6A743225B827E6795A56A281A /* UIStackView+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Utilities.swift"; path = "Stackable/UIStackView+Utilities.swift"; sourceTree = "<group>"; };
+		6CCD3665CAF41762111C7F000BF4B9EF /* RPStackable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RPStackable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A2D7EC2F9B6BD3F99A4080716466A68 /* Pods-Stackable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stackable_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7E2491CC62BA9A87BB33E10905397F0F /* MenuExampleRender.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MenuExampleRender.png; path = docs/MenuExampleRender.png; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8A6DC3C4C69DEBD369CC8557086EECFD /* Pods-Stackable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stackable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		91DD4585DDCBEE9A4AE24CBC1D729758 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9665CFA054120ABEA31D9CF5571917E6 /* RPStackable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPStackable.release.xcconfig; sourceTree = "<group>"; };
+		8DD2B532BB9B41555CA8168B8BF5DEA1 /* RPStackable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPStackable.debug.xcconfig; sourceTree = "<group>"; };
+		8FC3DA74BC1159BC6D4BB96C4B07EE52 /* UIStackView+Modifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Modifier.swift"; path = "Stackable/UIStackView+Modifier.swift"; sourceTree = "<group>"; };
+		94EB2B71D51670451762B371BBAA038D /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9EEC746EBAE4677092224BFB9CBDC9 /* Pods-Stackable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stackable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2453F91E19317539D65159E7C6B7632 /* AlignmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
+		A0B2228FA5EE0A2B4B63A4F30A4810CF /* Stackable+Spacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Spacing.swift"; path = "Stackable/Stackable+Spacing.swift"; sourceTree = "<group>"; };
+		A177FB6C022187D0F5DE3DEF801D2E26 /* MenuExampleRender.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MenuExampleRender.png; path = docs/MenuExampleRender.png; sourceTree = "<group>"; };
+		A28263E9580EC540172FABE658070515 /* Stackable+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Alignment.swift"; path = "Stackable/Stackable+Alignment.swift"; sourceTree = "<group>"; };
 		A2D37288229B758FBFA75ED1ABBC0780 /* Pods-Stackable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stackable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A3D3E4268BFED40951BB0922127A64EF /* UIView+BindVisible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+BindVisible.swift"; sourceTree = "<group>"; };
-		A474526EEFBDD6F0575B9DBFD20DF7F1 /* Stackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stackable.swift; path = Stackable/Stackable.swift; sourceTree = "<group>"; };
+		A427C7973ACF992D4110965D56251A37 /* Stackable+Views.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Views.swift"; path = "Stackable/Stackable+Views.swift"; sourceTree = "<group>"; };
+		A9BA47430EF241FABEBBA162AD15DF98 /* RPStackable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPStackable.modulemap; sourceTree = "<group>"; };
 		AA8B9746E53F83545ED2CB3A5C6C8E02 /* Pods-Stackable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stackable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AC208F15E647C007DDFD5961D898A169 /* Stackable+Spacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Spacing.swift"; path = "Stackable/Stackable+Spacing.swift"; sourceTree = "<group>"; };
 		AD4563B0956C0E7B0A09EE7121850023 /* Pods-Stackable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Stackable_Tests"; path = Pods_Stackable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBBB590CDE48107A2ED80E68C954B59A /* RPStackable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPStackable-dummy.m"; sourceTree = "<group>"; };
+		B669C7573476FA79AF89874370BD2952 /* ScrollingStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingStackView.swift; path = Stackable/ScrollingStackView.swift; sourceTree = "<group>"; };
+		B9D324BC382ADF242921CA741EC60CE0 /* RPStackableBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPStackableBuilder.swift; path = Stackable/RPStackableBuilder.swift; sourceTree = "<group>"; };
 		C6B7A35CEB811FC8A5BA60A9A78EAADA /* Pods-Stackable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stackable_Tests.modulemap"; sourceTree = "<group>"; };
 		C6D61AC1C5889FA2D794260BF34B4E7B /* Pods-Stackable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Stackable_Example"; path = Pods_Stackable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A7B9B04D7F18F6063713DD29104A1E /* Pods-Stackable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stackable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB3FBD7FCCD9914DDDAE1E8B8D8BD324 /* Stackable+A11y.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+A11y.swift"; path = "Stackable/Stackable+A11y.swift"; sourceTree = "<group>"; };
-		D0DB488E4B5AEDD0CB01B5CF82AE16F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CFC52AE4F2C51D73E828246192422EDB /* RPStackable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPStackable-dummy.m"; sourceTree = "<group>"; };
+		D1AF492E3FE0233D2395FC9C4D2EE432 /* Attachable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Attachable.swift; sourceTree = "<group>"; };
 		D5987507987EA6614EA3CB1EC30DE3E4 /* Pods-Stackable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stackable_Example-umbrella.h"; sourceTree = "<group>"; };
+		DEBEC0C580D7F30603276F4E82E1E13E /* RPStackable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPStackable-Info.plist"; sourceTree = "<group>"; };
+		DFEA18EE5498FC1B94628EA0A9AEB2E1 /* Stackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stackable.swift; path = Stackable/Stackable.swift; sourceTree = "<group>"; };
+		E180DAB71C2D5B3A74FF3C3AC5EE2402 /* Stackable+Extended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Extended.swift"; path = "Stackable/Stackable+Extended.swift"; sourceTree = "<group>"; };
 		E576E378FBE4387E7FDCBC75F8A42B85 /* Pods-Stackable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stackable_Example-Info.plist"; sourceTree = "<group>"; };
-		EAFF16C5C1B1F8A0C3838C25DF2883E2 /* Stackable+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Debug.swift"; path = "Stackable/Stackable+Debug.swift"; sourceTree = "<group>"; };
+		E5EEDE1D068B1B0606EBF067CD02BEE6 /* LogoRender.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LogoRender.png; path = docs/LogoRender.png; sourceTree = "<group>"; };
+		E847C6B3F4822D81FB34297612773C7A /* Stackable+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stackable+Debug.swift"; path = "Stackable/Stackable+Debug.swift"; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0478669F4F736AA49CB61A59D7A703E /* RPStackable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPStackable-Info.plist"; sourceTree = "<group>"; };
-		F1052D4D11E5E239D176F83F104D1FE6 /* LogoRender.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LogoRender.png; path = docs/LogoRender.png; sourceTree = "<group>"; };
-		F2B499F166AA3F99A442E2F8CA81AC7D /* RPStackable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPStackable-umbrella.h"; sourceTree = "<group>"; };
+		F21F73A9C79E36284ACD7C56D8864EFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F22AF9CC206237DBF46BF18CAF154B55 /* RPStackable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPStackable.release.xcconfig; sourceTree = "<group>"; };
 		FFAF80B7D2AB051381745631F452F2F6 /* Pods-Stackable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stackable_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,12 +114,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A72A838CC32DB9B82E77039ECEFE58AD /* Frameworks */ = {
+		E8DFFD852022C4B1DEAC63F1381C7711 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				063D18A372E0585D8D17928C5CBEC006 /* Foundation.framework in Frameworks */,
-				64C01E4DB9C55427946CB66DB08463EB /* UIKit.framework in Frameworks */,
+				EFB4C3A68606931E55BF2D9F48A3AB45 /* Foundation.framework in Frameworks */,
+				0C791AB890B21E686CE9176DB193F404 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,26 +134,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0603B3D2C42FE30DD5E28564F925DBE1 /* RPStackable */ = {
+		0690CFF61B3044DADBC591C576E4648C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0271C0C1098C4BA98E3303234D71A547 /* RPStackableBuilder.swift */,
-				08F9FE13B26667B5B030D377217FC033 /* ScrollingStackView.swift */,
-				A474526EEFBDD6F0575B9DBFD20DF7F1 /* Stackable.swift */,
-				CB3FBD7FCCD9914DDDAE1E8B8D8BD324 /* Stackable+A11y.swift */,
-				3D234CAF4B45604837F249D888ECD624 /* Stackable+Alignment.swift */,
-				EAFF16C5C1B1F8A0C3838C25DF2883E2 /* Stackable+Debug.swift */,
-				1EB5D4573E91E21E83F6A703E0F9233D /* Stackable+Extended.swift */,
-				005F25A0D3F9B34EDBCF91889F8B9A27 /* Stackable+Hairlines.swift */,
-				AC208F15E647C007DDFD5961D898A169 /* Stackable+Spacing.swift */,
-				5CBB0CE49E4486831C95CA460946EF0E /* Stackable+Views.swift */,
-				6E0C2BC6A743225B827E6795A56A281A /* UIStackView+Utilities.swift */,
-				181D2AF3C3AB2F7C97221892E40668BB /* Pod */,
-				1CEF722DE4296DDF4BDE4DDB59612CD7 /* Support */,
-				F3EE54947E2F11A769E237585B79E55B /* Support Files */,
+				A9BA47430EF241FABEBBA162AD15DF98 /* RPStackable.modulemap */,
+				CFC52AE4F2C51D73E828246192422EDB /* RPStackable-dummy.m */,
+				DEBEC0C580D7F30603276F4E82E1E13E /* RPStackable-Info.plist */,
+				5D78BC35D0915E1C1A37E7D46491B453 /* RPStackable-umbrella.h */,
+				8DD2B532BB9B41555CA8168B8BF5DEA1 /* RPStackable.debug.xcconfig */,
+				F22AF9CC206237DBF46BF18CAF154B55 /* RPStackable.release.xcconfig */,
 			);
-			name = RPStackable;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RPStackable";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -163,28 +156,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		181D2AF3C3AB2F7C97221892E40668BB /* Pod */ = {
+		16D3369E796AF8E752326C4968525735 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D0DB488E4B5AEDD0CB01B5CF82AE16F8 /* LICENSE */,
-				F1052D4D11E5E239D176F83F104D1FE6 /* LogoRender.png */,
-				7E2491CC62BA9A87BB33E10905397F0F /* MenuExampleRender.png */,
-				91DD4585DDCBEE9A4AE24CBC1D729758 /* README.md */,
-				202A53EAE4FC4326817070C6A5A738AD /* RPStackable.podspec */,
+				3AE21A427B433A253E05F16428C70129 /* LICENSE */,
+				E5EEDE1D068B1B0606EBF067CD02BEE6 /* LogoRender.png */,
+				A177FB6C022187D0F5DE3DEF801D2E26 /* MenuExampleRender.png */,
+				F21F73A9C79E36284ACD7C56D8864EFE /* README.md */,
+				6CCD3665CAF41762111C7F000BF4B9EF /* RPStackable.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		1CEF722DE4296DDF4BDE4DDB59612CD7 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				A2453F91E19317539D65159E7C6B7632 /* AlignmentView.swift */,
-				3452EDE2B76B5A930AB4AE950A66ED43 /* Attachable.swift */,
-				A3D3E4268BFED40951BB0922127A64EF /* UIView+BindVisible.swift */,
-				4F1A3ECC3A8E4AE0DCF113DE18C6A312 /* Utilities.swift */,
-			);
-			name = Support;
-			path = Stackable/Support;
 			sourceTree = "<group>";
 		};
 		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
@@ -194,6 +175,41 @@
 				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C7B4A92D3B7BBE973FD6ACC89E5601E /* RPStackable */ = {
+			isa = PBXGroup;
+			children = (
+				B9D324BC382ADF242921CA741EC60CE0 /* RPStackableBuilder.swift */,
+				B669C7573476FA79AF89874370BD2952 /* ScrollingStackView.swift */,
+				DFEA18EE5498FC1B94628EA0A9AEB2E1 /* Stackable.swift */,
+				51DBCAA19CBD409F5A1919E6DD6D7EF1 /* Stackable+A11y.swift */,
+				A28263E9580EC540172FABE658070515 /* Stackable+Alignment.swift */,
+				E847C6B3F4822D81FB34297612773C7A /* Stackable+Debug.swift */,
+				E180DAB71C2D5B3A74FF3C3AC5EE2402 /* Stackable+Extended.swift */,
+				05DCC91B2CE5CD305B22367362C01138 /* Stackable+Hairlines.swift */,
+				A0B2228FA5EE0A2B4B63A4F30A4810CF /* Stackable+Spacing.swift */,
+				A427C7973ACF992D4110965D56251A37 /* Stackable+Views.swift */,
+				8FC3DA74BC1159BC6D4BB96C4B07EE52 /* UIStackView+Modifier.swift */,
+				1A8B36BDD300C2B94F3A96FF98EBA502 /* UIStackView+Utilities.swift */,
+				16D3369E796AF8E752326C4968525735 /* Pod */,
+				732E0DDBDF94874E1F0497B8AB82CDE3 /* Support */,
+				0690CFF61B3044DADBC591C576E4648C /* Support Files */,
+			);
+			name = RPStackable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		732E0DDBDF94874E1F0497B8AB82CDE3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5A36CCEA39541DC1A7B512DB3A1620C2 /* AlignmentView.swift */,
+				D1AF492E3FE0233D2395FC9C4D2EE432 /* Attachable.swift */,
+				523F92BCE394913BC7E57CFDD551D01C /* UIView+BindVisible.swift */,
+				94EB2B71D51670451762B371BBAA038D /* Utilities.swift */,
+			);
+			name = Support;
+			path = Stackable/Support;
 			sourceTree = "<group>";
 		};
 		9614F32A536CE4BD9A67286A272C8A47 /* Targets Support Files */ = {
@@ -219,14 +235,6 @@
 			);
 			name = "Pods-Stackable_Tests";
 			path = "Target Support Files/Pods-Stackable_Tests";
-			sourceTree = "<group>";
-		};
-		B0DA6AAF8010FD3D28C72B83F60B4E9D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0603B3D2C42FE30DD5E28564F925DBE1 /* RPStackable */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B24F74C53C533D01B461A3C688D968C1 /* Pods-Stackable_Example */ = {
@@ -260,44 +268,37 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B0DA6AAF8010FD3D28C72B83F60B4E9D /* Development Pods */,
+				F3327E1B11A6550448D5013C7A24A1DD /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				BA2019225F606FBA201B4B4FA6035836 /* Products */,
 				9614F32A536CE4BD9A67286A272C8A47 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F3EE54947E2F11A769E237585B79E55B /* Support Files */ = {
+		F3327E1B11A6550448D5013C7A24A1DD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5335083004DAD1A9A0F1E620392B3C29 /* RPStackable.modulemap */,
-				BBBB590CDE48107A2ED80E68C954B59A /* RPStackable-dummy.m */,
-				F0478669F4F736AA49CB61A59D7A703E /* RPStackable-Info.plist */,
-				4C3A11A0927B3D581E47C6241DA047D3 /* RPStackable-prefix.pch */,
-				F2B499F166AA3F99A442E2F8CA81AC7D /* RPStackable-umbrella.h */,
-				519C41FBD314D27A968A5F4626A66249 /* RPStackable.debug.xcconfig */,
-				9665CFA054120ABEA31D9CF5571917E6 /* RPStackable.release.xcconfig */,
+				6C7B4A92D3B7BBE973FD6ACC89E5601E /* RPStackable */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RPStackable";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A6A52DF783F904986E51898E7654AC0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BB9B61D6B7709D59EFA5AC34AB31091 /* RPStackable-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5ECD02AF986694EEFB0524A083312854 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				264892C8D503AF900547249400DE78BA /* Pods-Stackable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB117FBC84D45A8E3A743A0D29F3948B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0842567D24450DA363447BAA43E81BD /* RPStackable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +325,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CFB8FEF9F564530240E379BC686E72AF /* PBXTargetDependency */,
+				D63E99248BDE30FFBCF13871E93D0F7D /* PBXTargetDependency */,
 			);
 			name = "Pods-Stackable_Example";
 			productName = Pods_Stackable_Example;
@@ -333,12 +334,12 @@
 		};
 		C6D53ACEEF8F029316B6BE4D3AD071C6 /* RPStackable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56EA47FA6E78A3D602A6DE70A12B5DB6 /* Build configuration list for PBXNativeTarget "RPStackable" */;
+			buildConfigurationList = A0B2D685066FEC7AE0D118A1541F13D0 /* Build configuration list for PBXNativeTarget "RPStackable" */;
 			buildPhases = (
-				0A6A52DF783F904986E51898E7654AC0 /* Headers */,
-				9F085D039378BEDECEF59E9B3BB13C4C /* Sources */,
-				A72A838CC32DB9B82E77039ECEFE58AD /* Frameworks */,
-				A893AA271009CC8C86ACFE1EF695C850 /* Resources */,
+				AB117FBC84D45A8E3A743A0D29F3948B /* Headers */,
+				5BC5230FF63659027D7A7F0CCBD53F9A /* Sources */,
+				E8DFFD852022C4B1DEAC63F1381C7711 /* Frameworks */,
+				691B5FE65515821F97A77D2BFEB52F2B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -361,7 +362,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				65216DE26607BA0B529A37D070880E62 /* PBXTargetDependency */,
+				BEA614CDC3BE698A425D086B5793DDFC /* PBXTargetDependency */,
 			);
 			name = "Pods-Stackable_Tests";
 			productName = Pods_Stackable_Tests;
@@ -407,14 +408,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98A7327251438E5C1817B6964848A6D3 /* Resources */ = {
+		691B5FE65515821F97A77D2BFEB52F2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A893AA271009CC8C86ACFE1EF695C850 /* Resources */ = {
+		98A7327251438E5C1817B6964848A6D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,34 +425,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5BC5230FF63659027D7A7F0CCBD53F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80AE47A5DC62A6F06A1FDB248539B7 /* AlignmentView.swift in Sources */,
+				DA64B63FA91CA6B36BDE2FDC76381683 /* Attachable.swift in Sources */,
+				B916538B16A61C2E5DE11BAFFA86351E /* RPStackable-dummy.m in Sources */,
+				DD1B2C7C7BC25A232AF9C1A674D4B46F /* RPStackableBuilder.swift in Sources */,
+				0C19F104E9FC9E97A1B0D67400B15B5B /* ScrollingStackView.swift in Sources */,
+				BC9CAADB4839EFEDE1A36170936D6F21 /* Stackable.swift in Sources */,
+				CABC7ACC57DCE5D13AD20472A4E9D37B /* Stackable+A11y.swift in Sources */,
+				3E094C1DF4B92053F40B7D31B46ED85E /* Stackable+Alignment.swift in Sources */,
+				C4C2E17A01308EF2BCE7F2C2A5964A3A /* Stackable+Debug.swift in Sources */,
+				879980185819BC1D0B24E230DB3446C5 /* Stackable+Extended.swift in Sources */,
+				D8A2CC9449EC3F839F747BBEFAC9FC39 /* Stackable+Hairlines.swift in Sources */,
+				FE256FDB0CDDAE1CEAEEAAC4AF04DDBD /* Stackable+Spacing.swift in Sources */,
+				50313827EBF313DB3E5D9674D43134FB /* Stackable+Views.swift in Sources */,
+				8B809E5EA58DFDECDCED920E1D1DE547 /* UIStackView+Modifier.swift in Sources */,
+				6CB00AC067F89CCCAB6D6FD88469B0BF /* UIStackView+Utilities.swift in Sources */,
+				CA2F53D42DAD0C82029750D4C258093B /* UIView+BindVisible.swift in Sources */,
+				7B8607EE111664D34B05DB89F7555000 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		812962F4029CC54DF19831F5167CAB9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5FF07899668293CCEAAE270944091E0 /* Pods-Stackable_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F085D039378BEDECEF59E9B3BB13C4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				362BA8391DA035F0CF1C3C92D8686E2D /* AlignmentView.swift in Sources */,
-				45038897DEDAAA02B30F525773F4D0E3 /* Attachable.swift in Sources */,
-				BE69E269D3AAE77F57F816B662C3F1A6 /* RPStackable-dummy.m in Sources */,
-				D17A483AF307A98FD1D9279D1E1606A2 /* RPStackableBuilder.swift in Sources */,
-				76BECA28D790A08659309BF2A89557B3 /* ScrollingStackView.swift in Sources */,
-				C610247004C19BE41EAAA279E200D765 /* Stackable.swift in Sources */,
-				61496DD505F0E22058893AB6C56FD287 /* Stackable+A11y.swift in Sources */,
-				8BB81D5D985A5DA61ADDAEE1187499D9 /* Stackable+Alignment.swift in Sources */,
-				BF9727684C6FC12D944D41CBD277E947 /* Stackable+Debug.swift in Sources */,
-				A5977458249BEFB59A203CE8FA8371C1 /* Stackable+Extended.swift in Sources */,
-				71FF1EBF9E30E1D71CB2E2103763F7F8 /* Stackable+Hairlines.swift in Sources */,
-				BCE85E50625E45162193BB82F6BA44DF /* Stackable+Spacing.swift in Sources */,
-				89A98D21E9EFC83D1CE1090F9DAF39D0 /* Stackable+Views.swift in Sources */,
-				506EF651FD3DDDB4EE37EE933916B41D /* UIStackView+Utilities.swift in Sources */,
-				2E894905EA20D585FE64712A53308CCA /* UIView+BindVisible.swift in Sources */,
-				FDA1AEC2E24DD8ADB87A205F0CB1DED0 /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,17 +468,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65216DE26607BA0B529A37D070880E62 /* PBXTargetDependency */ = {
+		BEA614CDC3BE698A425D086B5793DDFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Stackable_Example";
 			target = 09EC16142965B06AAD576CB33FBD85B5 /* Pods-Stackable_Example */;
-			targetProxy = 67B46D6207189F97AB2AC9819EB63CF9 /* PBXContainerItemProxy */;
+			targetProxy = 383EC3B07101E8E3232F0CFEAB6E9D3F /* PBXContainerItemProxy */;
 		};
-		CFB8FEF9F564530240E379BC686E72AF /* PBXTargetDependency */ = {
+		D63E99248BDE30FFBCF13871E93D0F7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RPStackable;
 			target = C6D53ACEEF8F029316B6BE4D3AD071C6 /* RPStackable */;
-			targetProxy = B0C458722E9CD29ACE37BBECFD7C3954 /* PBXContainerItemProxy */;
+			targetProxy = 2B7246EF0FD8213252C26302725A4C6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -511,43 +513,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		26D9F4C81E998B739DF7E9869C83C929 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9665CFA054120ABEA31D9CF5571917E6 /* RPStackable.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/RPStackable/RPStackable-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/RPStackable/RPStackable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RPStackable/RPStackable.modulemap";
-				PRODUCT_MODULE_NAME = Stackable;
-				PRODUCT_NAME = Stackable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -618,6 +583,41 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5443863F039D9AF4A06FDEAE21374F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD2B532BB9B41555CA8168B8BF5DEA1 /* RPStackable.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/RPStackable/RPStackable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RPStackable/RPStackable.modulemap";
+				PRODUCT_MODULE_NAME = Stackable;
+				PRODUCT_NAME = Stackable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -720,6 +720,42 @@
 			};
 			name = Release;
 		};
+		746A00B05848C6C3666AFC0C1D9491B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22AF9CC206237DBF46BF18CAF154B55 /* RPStackable.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/RPStackable/RPStackable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RPStackable/RPStackable.modulemap";
+				PRODUCT_MODULE_NAME = Stackable;
+				PRODUCT_NAME = Stackable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		81321F1751B0E2D0A27F57D364ECBC14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6593DCF8AD94B4248A1DDF9C0DA30C51 /* Pods-Stackable_Tests.debug.xcconfig */;
@@ -750,42 +786,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		83CA83EFCF235842D12208BDB3012106 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519C41FBD314D27A968A5F4626A66249 /* RPStackable.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/RPStackable/RPStackable-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/RPStackable/RPStackable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RPStackable/RPStackable.modulemap";
-				PRODUCT_MODULE_NAME = Stackable;
-				PRODUCT_NAME = Stackable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -840,15 +840,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56EA47FA6E78A3D602A6DE70A12B5DB6 /* Build configuration list for PBXNativeTarget "RPStackable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83CA83EFCF235842D12208BDB3012106 /* Debug */,
-				26D9F4C81E998B739DF7E9869C83C929 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		67D31E7A2171C105493A58A0295D8557 /* Build configuration list for PBXNativeTarget "Pods-Stackable_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -863,6 +854,15 @@
 			buildConfigurations = (
 				81321F1751B0E2D0A27F57D364ECBC14 /* Debug */,
 				155B3B231E3849F32ECACBEE76C652AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B2D685066FEC7AE0D118A1541F13D0 /* Build configuration list for PBXNativeTarget "RPStackable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5443863F039D9AF4A06FDEAE21374F21 /* Debug */,
+				746A00B05848C6C3666AFC0C1D9491B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
