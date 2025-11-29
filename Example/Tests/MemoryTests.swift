@@ -23,38 +23,38 @@ class MemoryTests: XCTestCase {
                 return UIView()
             }
             
-            vc.contentView.add([
-                "String",
-                NSAttributedString(string: "Attributed String"),
-                UIImage(),
-                UIImageView(),
-                UIButton(),
-                UIView()
-                    .inset(by: .init(top: 10, left: 10, bottom: 10, right: 10)),
+            vc.contentView.add {
+                "String"
+                NSAttributedString(string: "Attributed String")
+                UIImage()
+                UIImageView()
+                UIButton()
                 UIView()
                     .inset(by: .init(top: 10, left: 10, bottom: 10, right: 10))
-                    .aligned(.centerX),
+                UIView()
+                    .inset(by: .init(top: 10, left: 10, bottom: 10, right: 10))
+                    .aligned(.centerX)
                 UIView()
                     .outset(to: vc.view)
-                    .margins(alignedWith: vc.contentView),
-                10,
-                10...20,
-                10.0...20,
-                ...20,
-                10...,
-                UIStackView.stackable.hairline,
-                viewA,
-                UIStackView.stackable.space(after: viewA, 10),
-                UIStackView.stackable.space(before: viewB, 10),
-                viewB,
-                viewC,
+                    .margins(alignedWith: vc.contentView)
+                10
+                10...20
+                10.0...20
+                ...20
+                10...
+                UIStackView.stackable.hairline
+                viewA
+                UIStackView.stackable.space(after: viewA, 10)
+                UIStackView.stackable.space(before: viewB, 10)
+                viewB
+                viewC
                 UIStackView.stackable.hairlines(around: [viewA, viewB, viewC])
                     .inset(by: .init(top: 20, left: 20, bottom: 20, right: 20))
                     .color(.red)
-                    .thickness(3),
-                UIStackView.stackable.space(afterGroup: [viewA, viewB, viewC], 20),
-                UIStackView.stackable.flexibleSpace,
-            ])
+                    .thickness(3)
+                UIStackView.stackable.space(afterGroup: [viewA, viewB, viewC], 20)
+                UIStackView.stackable.flexibleSpace
+            }
             
             return vc
         }

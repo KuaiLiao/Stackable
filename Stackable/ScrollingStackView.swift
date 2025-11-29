@@ -126,8 +126,10 @@ public extension ScrollingStackView {
      ])
      ```
      */
-    func add(_ stackables: [any Stackable]) {
+    @discardableResult
+    func add(_ stackables: [any Stackable]) -> Self {
         stackView.stackable.add(stackables)
+        return self
     }
     
     /**
@@ -148,7 +150,9 @@ public extension ScrollingStackView {
      }
      ```
      */
-    func add(@RPStackableBuilder _ stackablesBlock: () -> [any Stackable]) {
+    @discardableResult
+    func add(@RPStackableBuilder _ stackablesBlock: () -> [any Stackable]) -> Self {
         stackView.stackable.add(stackablesBlock())
+        return self
     }
 }

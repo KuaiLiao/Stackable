@@ -33,11 +33,11 @@ class MenuCell: UIControl {
         stack.isUserInteractionEnabled = false
         addSubview(stack)
         stack.pinToSuperviewMargins(self)
-        stack.stackable.add([
-            label,
-            UIStackView.stackable.flexibleSpace,
+        stack.stackable.add {
+            label
+            UIStackView.stackable.flexibleSpace
             UIImage(asset: .chevron)
-        ])
+        }
         
         addTarget(self, action: #selector(didPress), for: .touchUpInside)
     }
