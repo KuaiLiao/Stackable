@@ -7,6 +7,7 @@
 
 import UIKit
 
+@discardableResult
 public func VStack(
     distribution: UIStackView.Distribution = .fill,
     alignment: UIStackView.Alignment = .fill,
@@ -24,6 +25,7 @@ public func VStack(
     return stackView
 }
 
+@discardableResult
 public func HStack(
     distribution: UIStackView.Distribution = .fill,
     alignment: UIStackView.Alignment = .fill,
@@ -41,6 +43,7 @@ public func HStack(
     return stackView
 }
 
+@discardableResult
 public func Spacer(
     minLength: CGFloat? = nil
 ) -> UIView {
