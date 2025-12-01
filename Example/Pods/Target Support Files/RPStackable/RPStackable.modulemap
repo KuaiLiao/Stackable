@@ -1,6 +1,0 @@
-framework module Stackable {
-  umbrella header "RPStackable-umbrella.h"
-
-  export *
-  module * { export * }
-}
