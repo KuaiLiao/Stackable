@@ -58,47 +58,39 @@ class LogoView: UIView {
     }
     
     func configureLayout() {
-        let firstRow = UIStackView()
-        firstRow.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        firstRow.axis = .horizontal
-        firstRow.stackable.add {
-            sTextImageView
-            10
-            addImageView
-                .aligned(.top)
-                .inset(by: .init(top: 15, left: 10, bottom: 10, right: 10))
-            10
-            locationImageView
-                .aligned(.centerY)
-            20
-            progressRingsImageView
-                .aligned(.centerY)
-            15
-            backImageView
-                .inset(by: .init(top: 0, left: 0, bottom: 10, right: 0))
-                .aligned(.centerY)
-        }
-        
-        let secondRow = UIStackView()
-        secondRow.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        secondRow.axis = .horizontal
-        secondRow.stackable.add {
-            UIStackView.stackable.flexibleSpace
-            appStoreImageView
-            15
-            bluetoothImageView
-            20
-            numberOneImageView
-                .inset(by: .init(top: 10, left: 0, bottom: 10, right: 0))
-            20
-            listIconImageView
-                .aligned(.centerY)
-        }
-        
         stack.stackable.add {
-            firstRow
+            HStack {
+                sTextImageView
+                10
+                addImageView
+                    .aligned(.top)
+                    .inset(by: .init(top: 15, left: 10, bottom: 10, right: 10))
+                10
+                locationImageView
+                    .aligned(.centerY)
+                20
+                progressRingsImageView
+                    .aligned(.centerY)
+                15
+                backImageView
+                    .inset(by: .init(top: 0, left: 0, bottom: 10, right: 0))
+                    .aligned(.centerY)
+            }.stackable.height(100)
+            
             15
-            secondRow
+            
+            HStack {
+                UIStackView.stackable.flexibleSpace
+                appStoreImageView
+                15
+                bluetoothImageView
+                20
+                numberOneImageView
+                    .inset(by: .init(top: 10, left: 0, bottom: 10, right: 0))
+                20
+                listIconImageView
+                    .aligned(.centerY)
+            }.stackable.height(100)
         }
         
         stack.stackable.debug.showMargins()
@@ -167,4 +159,9 @@ class LogoView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+#Preview("LogoView", traits: .defaultLayout) {
+    LogoViewController()
 }
