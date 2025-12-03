@@ -59,7 +59,7 @@ class LogoView: UIView {
     
     func configureLayout() {
         stack.stackable.add {
-            HStack {
+            StackUI.HStack {
                 sTextImageView
                 10
                 addImageView
@@ -79,7 +79,7 @@ class LogoView: UIView {
             
             15
             
-            HStack {
+            StackUI.HStack {
                 UIStackView.stackable.flexibleSpace
                 appStoreImageView
                 15
