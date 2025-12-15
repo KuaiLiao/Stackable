@@ -169,6 +169,12 @@ extension Float: StackableSpace {
     }
 }
 
+extension Double: StackableSpace {
+    func spaceType(for stackView: UIStackView) -> StackableSpaceItem.SpaceType {
+        CGFloat(self).spaceType(for: stackView)
+    }
+}
+
 // MARK: - Flexible Space Conformance
 extension ClosedRange: StackableSpace {
     func spaceType(for stackView: UIStackView) -> StackableSpaceItem.SpaceType {
