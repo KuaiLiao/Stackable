@@ -9,6 +9,7 @@
 import UIKit
 
 /// Type that acts as a generic extension point for all `StackableExtended` types.
+@MainActor
 public class StackableExtension<ExtendedType> {
     /// Stores the type or meta-type of any extended type.
     public private(set) var base: ExtendedType
@@ -22,6 +23,7 @@ public class StackableExtension<ExtendedType> {
 }
 
 /// Protocol describing the `stackable` extension points for Stackable extended types.
+@MainActor
 public protocol StackableExtended {
     /// Type being extended.
     associatedtype ExtendedType

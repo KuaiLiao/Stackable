@@ -25,6 +25,7 @@ import UIKit
  }
  ```
 */
+@MainActor
 public protocol Stackable {
     /**
      Any object conforming to `Stackable` simply needs to define how it interacts with a `UIStackView`, most often by adding views or spacing.
@@ -67,6 +68,7 @@ public protocol Stackable {
  }
  ```
  */
+@MainActor
 public protocol StackableView: Stackable {
     /**
      Conformance to `StackableView` receive automatic conformance to `Stackable`, and inherit functionality for insetting and alignment.
@@ -175,6 +177,7 @@ extension StackableExtension where ExtendedType: UIStackView {
 
 // MARK: - Array Conformance
 // An Array of Stackable elements is Stackable.
+@MainActor
 extension Array: Stackable where Element: Stackable {
 
     public func configure(stackView: UIStackView) {
@@ -184,6 +187,7 @@ extension Array: Stackable where Element: Stackable {
 }
 
 // MARK: - Optional Conformance
+@MainActor
 extension Optional: Stackable where Wrapped: Stackable {
     
     public func configure(stackView: UIStackView) {

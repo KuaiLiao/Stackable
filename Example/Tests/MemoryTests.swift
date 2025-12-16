@@ -9,6 +9,7 @@
 import Stackable
 import XCTest
 
+@MainActor
 class MemoryTests: XCTestCase {
     
     func testExampleViewControllers() {

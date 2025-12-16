@@ -9,6 +9,7 @@
 import UIKit
 import Stackable
 
+@MainActor
 class ExampleMenuViewController: UIViewController {
 
     enum ExampleCell: String, CaseIterable {
@@ -34,7 +35,7 @@ class ExampleMenuViewController: UIViewController {
         return logo
     }()
     
-    lazy var cells: [UIView] = ExampleCell.allCases.map(cell(for:))
+    lazy var cells: [UIView] = ExampleCell.allCases.map { cell(for: $0) }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +64,7 @@ class ExampleMenuViewController: UIViewController {
         
 }
 
+@MainActor
 extension ExampleMenuViewController  {
     
     func cell(for example: ExampleCell) -> UIView {

@@ -16,6 +16,7 @@ class InheritingStackView: UIStackView {}
  */
 class InheritanceTests: XCTestCase {
 
+    @MainActor
     func testDerivingClassHasStackableAddMethod() {
         let stack = InheritingStackView()
         stack.stackable.add([

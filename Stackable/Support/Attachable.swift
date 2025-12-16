@@ -13,6 +13,7 @@ import Foundation
 /// The pattern is useful for executing some very-messy ownership situations that occur in Swift development.
 /// Example: attaching a `Coordinator` or `Controller` to a `ViewController` so that the Coordinator lives and dies with the  view hierarchy.
 /// Example: attaching a  KVO observation to some view you are observing so that the observation itself dies alongside the view.
+@MainActor
 protocol Attachable {
 
     func attach(to child: AnyObject)
@@ -20,8 +21,8 @@ protocol Attachable {
 
 }
 
-private var strongKey: Void?
-private var weakKey: Void?
+@MainActor private var strongKey: Void?
+@MainActor private var weakKey: Void?
 
 extension Attachable where Self: NSObject {
 

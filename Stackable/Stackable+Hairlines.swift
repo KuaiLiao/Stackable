@@ -9,6 +9,7 @@
 import UIKit
 
 /// `StackableHairline` carries information about where to build a hairline, as well as any manipulations that need to be performed before being added to a stackView.
+@MainActor
 public struct StackableHairline {
     
     /// Defines the on-axis layout rules for the hairline
@@ -181,6 +182,7 @@ public extension StackableHairline {
     
 }
 
+@MainActor
 public extension Array where Element == StackableHairline {
     
     /**
@@ -407,6 +409,7 @@ extension StackableHairline: Stackable {
 public typealias StackableHairlineProvider = (UIStackView) -> UIView
 
 public extension UIStackView {
+    @MainActor
     fileprivate struct AssociatedKeys {
         static var hairlineColor: Void?
         static var hairlineThickness: Void?

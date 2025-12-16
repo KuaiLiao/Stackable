@@ -21,6 +21,7 @@ public extension StackableExtension where ExtendedType: UIStackView {
 }
 
 /// Type that acts as a generic extension point for all `StackableExtended` types.
+@MainActor
 public class DebugStackableExtension {
 
     public private(set) var stack: UIStackView

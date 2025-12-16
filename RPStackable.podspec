@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.prefix_header_file = false
   s.ios.deployment_target = '12.0'
-  s.swift_versions = ['5']
+  s.swift_versions = ['6']
 
   s.source_files = 'Stackable/**/*.swift'
 

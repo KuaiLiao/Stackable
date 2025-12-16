@@ -9,6 +9,7 @@
 import UIKit
 
 /// `StackableViewItem` carries information about how to build a source view, as well as any manipulations that need to be performed before being added to a stackView
+@MainActor
 public struct StackableViewItem {
     
     /// A closure defining how to create the view for a particular stackView
@@ -160,6 +161,7 @@ public extension StackableView {
 
 }
 
+@MainActor
 public extension Array where Element: StackableView {
     
     /**
