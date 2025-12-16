@@ -59,4 +59,30 @@ public extension StackableExtension where ExtendedType: UIView {
         let _: StackableExtension = height(w)
         return base
     }
+    
+    @discardableResult
+    func size(_ s: CGSize) -> Self {
+        let _: StackableExtension = width(s.width)
+        let _: StackableExtension = height(s.height)
+        return self
+    }
+    
+    @discardableResult
+    func size(_ s: CGSize) -> ExtendedType {
+        let _: StackableExtension = size(s)
+        return base
+    }
+    
+    @discardableResult
+    func size(_ wh: CGFloat) -> Self {
+        let _: StackableExtension = width(wh)
+        let _: StackableExtension = height(wh)
+        return self
+    }
+    
+    @discardableResult
+    func size(_ wh: CGFloat) -> ExtendedType {
+        let _: StackableExtension = size(wh)
+        return base
+    }
 }
