@@ -140,6 +140,7 @@ internal protocol StackableSpace: Stackable {
 }
 
 extension StackableSpace {
+    @MainActor
     public func configure(stackView: UIStackView) {
         let type = spaceType(for: stackView)
         let item = StackableSpaceItem(type: type)
