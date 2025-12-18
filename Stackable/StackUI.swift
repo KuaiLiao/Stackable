@@ -64,7 +64,7 @@ public struct StackUI {
     @discardableResult
     public static func Spacer(
         minWidth: CGFloat? = nil,
-        minHeight: CGFloat? = nil,
+        minHeight: CGFloat? = nil
     ) -> UIView {
         let view = UIView()
         view.backgroundColor = .clear
